@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="9" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.Finance' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Главная страница' appears in 13021msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'Финансы' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Финансы' appears in 10062msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'Курс НБРБ' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.Finance' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.TVset' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Главная страница' appears in 13445msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'ТВ-программа' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Программа ТВ' appears in 5466msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Четверг, 7 августа<br>]]>
+    </line>
+    <line>
+      <![CDATA[четверг, 7 августа<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.TVset' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.Shop' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Главная страница' appears in 13871msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'Магазины' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Страница поиска' appears in 22436msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'Строка поиска' :: Typing 'apple'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка Найти' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.Shop' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Demo Test Plan" duration-ms="24859305" started-at="2014-08-06T23:22:45Z" finished-at="2014-08-07T06:17:05Z">
+    <groups>
+    </groups>
+    <test name="Functional Tests" duration-ms="24859305" started-at="2014-08-06T23:22:45Z" finished-at="2014-08-07T06:17:05Z">
+      <class name="demo.test.Building">
+        <test-method status="SKIP" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.Building@4f2b503c]" name="before" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:demo.test.Building@4f2b503c]" name="after" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="SKIP" signature="xTest()[pri:0, instance:demo.test.Building@4f2b503c]" name="xTest" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+      </class> <!-- demo.test.Building -->
+      <class name="demo.test.TVset">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.TVset@58d75e99]" name="before" is-config="true" duration-ms="2905" started-at="2014-08-07T02:23:41Z" finished-at="2014-08-07T02:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e3f861]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.TVset@58d75e99]" name="xTest" duration-ms="23956" started-at="2014-08-07T02:23:44Z" finished-at="2014-08-07T02:24:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.TVset' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Главная страница' appears in 13445msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'ТВ-программа' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Программа ТВ' appears in 5466msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Четверг, 7 августа<br>]]>
+            </line>
+            <line>
+              <![CDATA[четверг, 7 августа<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.TVset' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.TVset@58d75e99]" name="after" is-config="true" duration-ms="36731" started-at="2014-08-07T02:24:08Z" finished-at="2014-08-07T02:24:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.TVset -->
+      <class name="demo.test.Logout">
+        <test-method status="SKIP" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.Logout@4738a206]" name="before" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="SKIP" signature="xTest()[pri:0, instance:demo.test.Logout@4738a206]" name="xTest" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:demo.test.Logout@4738a206]" name="after" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.Logout -->
+      <class name="demo.test.Login">
+        <test-method status="SKIP" signature="xTest()[pri:0, instance:demo.test.Login@bae7dc0]" name="xTest" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:demo.test.Login@bae7dc0]" name="after" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="SKIP" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.Login@bae7dc0]" name="before" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- demo.test.Login -->
+      <class name="demo.test.Comment">
+        <test-method status="SKIP" signature="xTest()[pri:0, instance:demo.test.Comment@306e95ec]" name="xTest" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:demo.test.Comment@306e95ec]" name="after" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="SKIP" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.Comment@306e95ec]" name="before" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- demo.test.Comment -->
+      <class name="demo.test.PrivateOffice">
+        <test-method status="SKIP" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.PrivateOffice@52af26ee]" name="before" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="SKIP" signature="xTest()[pri:0, instance:demo.test.PrivateOffice@52af26ee]" name="xTest" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:demo.test.PrivateOffice@52af26ee]" name="after" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.PrivateOffice -->
+      <class name="demo.test.Finance">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.Finance@6fd83fc1]" name="before" is-config="true" duration-ms="78" started-at="2014-08-07T02:22:45Z" finished-at="2014-08-07T02:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e3f861]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.Finance@6fd83fc1]" name="xTest" duration-ms="28790" started-at="2014-08-07T02:22:46Z" finished-at="2014-08-07T02:23:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.Finance' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Главная страница' appears in 13021msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'Финансы' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Финансы' appears in 10062msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'Курс НБРБ' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.Finance' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.Finance@6fd83fc1]" name="after" is-config="true" duration-ms="26564" started-at="2014-08-07T02:23:14Z" finished-at="2014-08-07T02:23:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.Finance -->
+      <class name="demo.test.Forum">
+        <test-method status="FAIL" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.Forum@741a8937]" name="before" is-config="true" duration-ms="0" started-at="2014-08-07T09:16:40Z" finished-at="2014-08-07T09:16:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e3f861]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Андрей-ПК', ip: '10.163.2.24', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Андрей-ПК', ip: '10.163.2.24', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$100(FirefoxDriver.java:74)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:220)
+	at webdriver.Browser.getInstance(Browser.java:90)
+	at webdriver.BaseEntity.before(BaseEntity.java:215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="SKIP" signature="xTest()[pri:0, instance:demo.test.Forum@741a8937]" name="xTest" duration-ms="203" started-at="2014-08-07T09:17:04Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:demo.test.Forum@741a8937]" name="after" is-config="true" duration-ms="0" started-at="2014-08-07T09:17:05Z" finished-at="2014-08-07T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.Forum -->
+      <class name="demo.test.Shop">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.Shop@74751b3]" name="before" is-config="true" duration-ms="2997" started-at="2014-08-07T02:24:44Z" finished-at="2014-08-07T02:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e3f861]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.Shop@74751b3]" name="xTest" duration-ms="49512" started-at="2014-08-07T02:24:47Z" finished-at="2014-08-07T02:25:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.Shop' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Главная страница' appears in 13871msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'Магазины' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Страница поиска' appears in 22436msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'Строка поиска' :: Typing 'apple'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка Найти' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.Shop' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.Shop@74751b3]" name="after" is-config="true" duration-ms="24663003" started-at="2014-08-07T02:25:37Z" finished-at="2014-08-07T09:16:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.Shop -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- Demo Test Plan -->
+</testng-results>
