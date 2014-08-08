@@ -21,7 +21,7 @@ public class HomePage extends BaseForm {
 	private Label lbSignIn = new Label(By.linkText("Войти"),"Вход");
 	private Label lbUsername = new Label(By.xpath("//a[@class='enter logedin']"),"Имя пользователя");
 	private Label lbPrivateOffice = new Label(By.linkText("Личный кабинет"),"Личный кабинет");
-	private Label lbNews1 = new Label(By.xpath("//a[@data-atom-target='main_news_1']"),"Первая новость");
+	private Label lbNews1 = new Label(By.xpath("//a[@data-atom-target='main_news_2']"),"Первая новость");
 	private Label lbExit = new Label(By.xpath("//a[@class='gray-link exit']"),"Выход");
 	private TextBox txbSearch = new TextBox(By.id("search_from_str"),"Строка поиска");
 	private TextBox txbLogin = new TextBox(By.name("login"),"Поле логина");

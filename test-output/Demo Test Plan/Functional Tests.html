@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Functional Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/6</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 07 02:22:45 FET 2014</td>
+<td>Started on:</td><td>Fri Aug 08 21:44:26 FET 2014</td>
 </tr>
-<tr><td>Total time:</td><td>24859 seconds (24859305 ms)</td>
+<tr><td>Total time:</td><td>285 seconds (285846 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,173 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='demo.test.Forum.before()'><b>before</b><br>Test class: demo.test.Forum<br>Parameters: org.testng.TestRunner@5e3f861</td>
-<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
-System info: host: &apos;Андрей-ПК&apos;, ip: &apos;10.163.2.24&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.firefox.FirefoxDriver.access$100(FirefoxDriver.java:74)
-	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:220)
-	at webdriver.Browser.getInstance(Browser.java:90)
-	at webdriver.BaseEntity.before(BaseEntity.java:215)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	... 28 more
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace566113173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace566113173'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
-System info: host: &apos;Андрей-ПК&apos;, ip: &apos;10.163.2.24&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.firefox.FirefoxDriver.access$100(FirefoxDriver.java:74)
-	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:220)
-	at webdriver.Browser.getInstance(Browser.java:90)
-	at webdriver.BaseEntity.before(BaseEntity.java:215)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	... 28 more
-</pre></div></td>
-<td>0</td>
-<td>demo.test.Forum@741a8937</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='demo.test.Building.before()'><b>before</b><br>Test class: demo.test.Building</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Building@4f2b503c</td></tr>
-<tr>
-<td title='demo.test.Login.before()'><b>before</b><br>Test class: demo.test.Login</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Login@bae7dc0</td></tr>
-<tr>
-<td title='demo.test.PrivateOffice.before()'><b>before</b><br>Test class: demo.test.PrivateOffice</td>
-<td></td>
-<td>0</td>
-<td>demo.test.PrivateOffice@52af26ee</td></tr>
-<tr>
-<td title='demo.test.Comment.before()'><b>before</b><br>Test class: demo.test.Comment</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Comment@306e95ec</td></tr>
-<tr>
-<td title='demo.test.Logout.before()'><b>before</b><br>Test class: demo.test.Logout</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Logout@4738a206</td></tr>
-<tr>
-<td title='demo.test.Forum.after()'><b>after</b><br>Test class: demo.test.Forum</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Forum@741a8937</td></tr>
-<tr>
-<td title='demo.test.Building.after()'><b>after</b><br>Test class: demo.test.Building</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Building@4f2b503c</td></tr>
-<tr>
-<td title='demo.test.Login.after()'><b>after</b><br>Test class: demo.test.Login</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Login@bae7dc0</td></tr>
-<tr>
-<td title='demo.test.PrivateOffice.after()'><b>after</b><br>Test class: demo.test.PrivateOffice</td>
-<td></td>
-<td>0</td>
-<td>demo.test.PrivateOffice@52af26ee</td></tr>
-<tr>
-<td title='demo.test.Comment.after()'><b>after</b><br>Test class: demo.test.Comment</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Comment@306e95ec</td></tr>
-<tr>
-<td title='demo.test.Logout.after()'><b>after</b><br>Test class: demo.test.Logout</td>
-<td></td>
-<td>0</td>
-<td>demo.test.Logout@4738a206</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -243,20 +76,20 @@ Caused by: java.net.ConnectException: Connection refused: connect
 </tr>
 <tr>
 <td title='demo.test.Finance.xTest()'><b>xTest</b><br>Test class: demo.test.Finance<br/>
-<a href="#Output-1908043086" onClick='toggleBox("Output-1908043086", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1014486152" onClick='toggleBox("Output-1014486152", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1908043086" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1908043086">
+<a href="#Output-1014486152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1014486152">
 ---------------------------------------------------------------------------<br><br/>
 =====================  Test case: 'demo.test.Finance' =====================<br><br/>
 ---------------------------------------------------------------------------<br><br/>
 --------==[ Preconditions ]==--------<br><br/>
 --------==[ Step 1 ]==--------<br><br/>
 --------==[ Step 2 ]==--------<br><br/>
-Form 'Главная страница' appears in 13021msec<br><br/>
+Form 'Главная страница' appears in 4187msec<br><br/>
 Label 'Финансы' :: Clicking<br><br/>
 --------==[ Step 3 ]==--------<br><br/>
-Form 'Финансы' appears in 10062msec<br><br/>
+Form 'Финансы' appears in 5928msec<br><br/>
 Label 'Курс НБРБ' :: Clicking<br><br/>
 --------==[ Step 4 ]==--------<br><br/>
 <br><br/>
@@ -267,27 +100,27 @@ Label 'Курс НБРБ' :: Clicking<br><br/>
 </div>
 </td>
 <td></td>
-<td>28</td>
-<td>demo.test.Finance@6fd83fc1</td></tr>
+<td>16</td>
+<td>demo.test.Finance@306e95ec</td></tr>
 <tr>
 <td title='demo.test.TVset.xTest()'><b>xTest</b><br>Test class: demo.test.TVset<br/>
-<a href="#Output-1138697171" onClick='toggleBox("Output-1138697171", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2032891036" onClick='toggleBox("Output-2032891036", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1138697171" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1138697171">
+<a href="#Output-2032891036" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2032891036">
 -------------------------------------------------------------------------<br><br/>
 =====================  Test case: 'demo.test.TVset' =====================<br><br/>
 -------------------------------------------------------------------------<br><br/>
 --------==[ Preconditions ]==--------<br><br/>
 --------==[ Step 1 ]==--------<br><br/>
 --------==[ Step 2 ]==--------<br><br/>
-Form 'Главная страница' appears in 13445msec<br><br/>
+Form 'Главная страница' appears in 2680msec<br><br/>
 Label 'ТВ-программа' :: Clicking<br><br/>
 --------==[ Step 3 ]==--------<br><br/>
-Form 'Программа ТВ' appears in 5466msec<br><br/>
+Form 'Программа ТВ' appears in 74msec<br><br/>
 --------==[ Step 4 ]==--------<br><br/>
-Четверг, 7 августа<br><br/>
-четверг, 7 августа<br><br/>
+Пятница, 8 августа<br><br/>
+пятница, 8 августа<br><br/>
 <br><br/>
 ************************************************<br><br/>
 ***** Test case: 'demo.test.TVset' Passed! *****<br><br/>
@@ -296,24 +129,24 @@ Form 'Программа ТВ' appears in 5466msec<br><br/>
 </div>
 </td>
 <td></td>
-<td>23</td>
-<td>demo.test.TVset@58d75e99</td></tr>
+<td>8</td>
+<td>demo.test.TVset@52af26ee</td></tr>
 <tr>
 <td title='demo.test.Shop.xTest()'><b>xTest</b><br>Test class: demo.test.Shop<br/>
-<a href="#Output-93199773" onClick='toggleBox("Output-93199773", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1326393666" onClick='toggleBox("Output-1326393666", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-93199773" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-93199773">
+<a href="#Output-1326393666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1326393666">
 ------------------------------------------------------------------------<br><br/>
 =====================  Test case: 'demo.test.Shop' =====================<br><br/>
 ------------------------------------------------------------------------<br><br/>
 --------==[ Preconditions ]==--------<br><br/>
 --------==[ Step 1 ]==--------<br><br/>
 --------==[ Step 2 ]==--------<br><br/>
-Form 'Главная страница' appears in 13871msec<br><br/>
+Form 'Главная страница' appears in 1901msec<br><br/>
 Label 'Магазины' :: Clicking<br><br/>
 --------==[ Step 3 ]==--------<br><br/>
-Form 'Страница поиска' appears in 22436msec<br><br/>
+Form 'Страница поиска' appears in 117msec<br><br/>
 Text Field 'Строка поиска' :: Typing 'apple'<br><br/>
 Button 'Кнопка Найти' :: Clicking<br><br/>
 --------==[ Step 4 ]==--------<br><br/>
@@ -326,46 +159,200 @@ Button 'Кнопка Найти' :: Clicking<br><br/>
 </div>
 </td>
 <td></td>
-<td>49</td>
-<td>demo.test.Shop@74751b3</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>15</td>
+<td>demo.test.Shop@bae7dc0</td></tr>
 <tr>
-<td title='demo.test.Forum.xTest()'><b>xTest</b><br>Test class: demo.test.Forum</td>
+<td title='demo.test.Forum.xTest()'><b>xTest</b><br>Test class: demo.test.Forum<br/>
+<a href="#Output-1541525668" onClick='toggleBox("Output-1541525668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1541525668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1541525668">
+-------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.Forum' =====================<br><br/>
+-------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Главная страница' appears in 70390msec<br><br/>
+Label 'Все ресурсы' :: Clicking<br><br/>
+Label 'Форумы' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Форумы' appears in 3243msec<br><br/>
+Text Field 'Строка поиска' :: Typing 'телевизор'<br><br/>
+Button 'Кнопка Найти' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+<br><br/>
+************************************************<br><br/>
+***** Test case: 'demo.test.Forum' Passed! *****<br><br/>
+************************************************<br><br/>
+<br><br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>demo.test.Forum@741a8937</td></tr>
+<td>80</td>
+<td>demo.test.Forum@209da20d</td></tr>
 <tr>
-<td title='demo.test.Building.xTest()'><b>xTest</b><br>Test class: demo.test.Building</td>
+<td title='demo.test.Building.xTest()'><b>xTest</b><br>Test class: demo.test.Building<br/>
+<a href="#Output-1058876963" onClick='toggleBox("Output-1058876963", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1058876963" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1058876963">
+----------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.Building' =====================<br><br/>
+----------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Главная страница' appears in 2547msec<br><br/>
+Label 'Все ресурсы' :: Clicking<br><br/>
+Label 'Строительство' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Строительство' appears in 2397msec<br><br/>
+Label 'Окна' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+<br><br/>
+***************************************************<br><br/>
+***** Test case: 'demo.test.Building' Passed! *****<br><br/>
+***************************************************<br><br/>
+<br><br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
+<td>18</td>
 <td>demo.test.Building@4f2b503c</td></tr>
 <tr>
-<td title='demo.test.Login.xTest()'><b>xTest</b><br>Test class: demo.test.Login</td>
+<td title='demo.test.Login.xTest()'><b>xTest</b><br>Test class: demo.test.Login<br/>
+<a href="#Output-837659261" onClick='toggleBox("Output-837659261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-837659261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-837659261">
+-------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.Login' =====================<br><br/>
+-------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Главная страница' appears in 1610msec<br><br/>
+Label 'Вход' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'Поле логина' :: Typing 'andrei.internet'<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Text Field 'Поле пароля' :: Typing '9664069'<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Button 'Кнопка Войти' :: Clicking<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+--------==[ Step 7 ]==--------<br><br/>
+<br><br/>
+************************************************<br><br/>
+***** Test case: 'demo.test.Login' Passed! *****<br><br/>
+************************************************<br><br/>
+<br><br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>demo.test.Login@bae7dc0</td></tr>
+<td>7</td>
+<td>demo.test.Login@6fd83fc1</td></tr>
 <tr>
-<td title='demo.test.PrivateOffice.xTest()'><b>xTest</b><br>Test class: demo.test.PrivateOffice</td>
+<td title='demo.test.PrivateOffice.xTest()'><b>xTest</b><br>Test class: demo.test.PrivateOffice<br/>
+<a href="#Output-79644918" onClick='toggleBox("Output-79644918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-79644918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-79644918">
+---------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.PrivateOffice' =====================<br><br/>
+---------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Главная страница' appears in 2718msec<br><br/>
+Label 'Вход' :: Clicking<br><br/>
+Text Field 'Поле логина' :: Typing 'andrei.internet'<br><br/>
+Text Field 'Поле пароля' :: Typing '9664069'<br><br/>
+Button 'Кнопка Войти' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Label 'Имя пользователя' :: Clicking<br><br/>
+Label 'Личный кабинет' :: Clicking<br><br/>
+Form 'Редактирование профиля' appears in 74msec<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+<br><br/>
+********************************************************<br><br/>
+***** Test case: 'demo.test.PrivateOffice' Passed! *****<br><br/>
+********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>demo.test.PrivateOffice@52af26ee</td></tr>
+<td>12</td>
+<td>demo.test.PrivateOffice@1e04fa0a</td></tr>
 <tr>
-<td title='demo.test.Comment.xTest()'><b>xTest</b><br>Test class: demo.test.Comment</td>
+<td title='demo.test.Comment.xTest()'><b>xTest</b><br>Test class: demo.test.Comment<br/>
+<a href="#Output-62343880" onClick='toggleBox("Output-62343880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-62343880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62343880">
+---------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.Comment' =====================<br><br/>
+---------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Главная страница' appears in 1702msec<br><br/>
+Label 'Вход' :: Clicking<br><br/>
+Text Field 'Поле логина' :: Typing 'kolya.vykoryn'<br><br/>
+Text Field 'Поле пароля' :: Typing 'kolya123'<br><br/>
+Button 'Кнопка Войти' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Label 'Первая новость' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Form 'Первая новость' appears in 30814msec<br><br/>
+Text Field 'Поле для комментария' :: Typing 'Правительству также рекомендовано при необходимости вносить предложения об изменении срока действия запрета, предусмотренного указом.'<br><br/>
+Button 'Добавить комментарий' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+//a[.='kolya.vykoryn']/../../div[@class='comment_txt']<br><br/>
+Правительству также рекомендовано при необходимости вносить предложения об изменении срока действия запрета, предусмотренного указом.<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+<br><br/>
+**************************************************<br><br/>
+***** Test case: 'demo.test.Comment' Passed! *****<br><br/>
+**************************************************<br><br/>
+<br><br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>demo.test.Comment@306e95ec</td></tr>
+<td>41</td>
+<td>demo.test.Comment@e15b7e8</td></tr>
 <tr>
-<td title='demo.test.Logout.xTest()'><b>xTest</b><br>Test class: demo.test.Logout</td>
+<td title='demo.test.Logout.xTest()'><b>xTest</b><br>Test class: demo.test.Logout<br/>
+<a href="#Output-2101636817" onClick='toggleBox("Output-2101636817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2101636817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2101636817">
+--------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.Logout' =====================<br><br/>
+--------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Главная страница' appears in 1823msec<br><br/>
+Label 'Вход' :: Clicking<br><br/>
+Text Field 'Поле логина' :: Typing 'andrei.internet'<br><br/>
+Text Field 'Поле пароля' :: Typing '9664069'<br><br/>
+Button 'Кнопка Войти' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Label 'Выход' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+<br><br/>
+*************************************************<br><br/>
+***** Test case: 'demo.test.Logout' Passed! *****<br><br/>
+*************************************************<br><br/>
+<br><br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>demo.test.Logout@4738a206</td></tr>
+<td>16</td>
+<td>demo.test.Logout@741a8937</td></tr>
 </table><p>
 </body>
 </html>
